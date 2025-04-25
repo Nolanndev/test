@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: test-app
+    ports:
+      - "3001:3000"
+    environment:
+      - EXTERNAL_PORT=3001
+    restart: unless-stopped
