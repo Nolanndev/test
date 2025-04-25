@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     res.send(`
         <h1>👋🏻 Hello Application !!</h1>
         <p>Un début de §paragraphe§</p>
-        // <p>✅ Ça à l'air de fonctionner</p>
+        <p>// ✅ Ça à l'air de fonctionner</p>
     `);
 })
 
